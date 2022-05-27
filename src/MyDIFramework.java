@@ -13,23 +13,6 @@ import java.util.Arrays;
 }
 
 
-class BookRepository {
-    public BookRepository() {
-    }
-}
-
-
-class BookService {
-    @Injectt
-    BookRepository bookRepository;
-
-    public BookService() {
-
-    }
-}
-
-
-
 class ContainerService {
 
     public static<T> T getObject(Class<T> classType) {
